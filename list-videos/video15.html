@@ -1,0 +1,2409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/logo_youtube-title.png" type="image/x-icon">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/font-icon/themify-icons-font (1)/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../assets/icon-Boxicons/boxicons-2.0.9/boxicons-2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/container.css">
+    <link rel="stylesheet" href="./video.css">
+    <link rel="stylesheet" href="./video_responsive.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+           <div class="slider_bar-video">          
+                <ul class="header_list-left header_list-left-navbar">
+                    <li class="list_left-item click-hide-menu">
+                        <i class="header_list-icon icon-color ti-menu"></i>
+                        <span class="btn-click-special"></span>
+                    </li>
+
+                    <li class="list_left-item">
+                        <a href="https://aelong2001.github.io/Youtube/">
+                            <img src="../assets/img/logo.png" alt="Youtube VN" class="header_logo">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="slider_bar bar-active">      
+                    <div class="slider_bar-content">
+                    <div class="slider_bar-list-first">
+                            <ul class="slider_bar-list">
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-home bxf-home bxf-home-video"></i>
+                                    <p class="slider_bar-description">Trang chủ</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-compass bxf-compass"></i>
+                                    <p class="slider_bar-description">Khám phá</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <i class="bx bxl-youtube bxf-youtube "></i>
+                                    <p class="slider_bar-description">Kênh đăng kí</p>
+                                </li>
+        
+                            </ul>
+                    </div>
+        
+                        <div class="slider_bar-list-second">
+                            <ul class="slider_bar-list">
+                                <li class="slider_bar-item">
+                                    <i class="bx  bxs-videos"></i>
+                                    <p class="slider_bar-description">Thư viện</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bx-history"></i>
+                                    <p class="slider_bar-description">Video đã xem</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bx-caret-right-square"></i>
+                                    <p class="slider_bar-description">Video của bạn</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-time-five"></i>
+                                    <p class="slider_bar-description">Xem sau</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-like"></i>
+                                    <p class="slider_bar-description">Video đã thích</p>
+                                </li>
+            
+                            </ul>
+                        </div>
+        
+                        <div class="slider_bar-list-third">
+                            <h4 class="slider_bar-list-title">Kênh đăng ký</h4>
+                            <ul class="slider_bar-list slider_bar-list-pd">
+                                <li class="slider_bar-item">
+                                    <div class="slider_bar-live">
+                                        <i class="bx bx-station"></i>
+                                    </div>
+                                    <img src="../assets/img/AE_LONG.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Long HD</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <div class="slider_bar-live">
+                                        <i class="bx bx-station"></i>
+                                    </div>
+                                    <img src="../assets/img/f8-myfavourite.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">F8 Official</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <div class="slider_bar-live">
+                                        <i class="bx bx-station"></i>
+                                    </div>
+                                    <img src="../assets/img/freecodecamp.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">freeCodeCamp.org</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <img src="../assets/img/pham-huy-hoang.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Phạm Huy Hoàng</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <img src="../assets/img/laptrinhvienTV.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Lập Trình Viên TV</p>
+                                </li>
+        
+                                <li class="slider_bar-item item-change">
+                                    <div class="slider_bar-live">
+                                        <i class="bx bx-station"></i>
+                                    </div>
+                                    <img src="../assets/img/khanh-hung.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Khánh Hùng - Đời sống lập trình viên</p>
+                                </li>
+        
+                                <li class="slider_bar-item item-change">
+                                    <img src="../assets/img/minh-bup-be.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Minh Búp Bê</p>
+                                </li>
+        
+                                <li class="slider_bar-item item-change">
+                                    <img src="../assets/img/le-gia-huy.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Lê Gia Huy</p>
+                                </li>
+        
+                                <li class="slider_bar-item item-change">
+                                    <img src="../assets/img/tuan-can.jpg" alt="channel-avatar" class="slider_channel-avt">
+                                    <p class="slider_bar-description">Tuấn Cận</p>
+                                </li>
+        
+                                <li id="item-js" class="slider_bar-item">
+                                    <i class="bx bx-chevron-down"></i>
+                                    <p class="slider_bar-description btn_click-htt">Hiển thị thêm</p>
+                                </li>
+            
+                            </ul>
+                        </div>
+        
+                        <div class="slider_bar-list-fourth">
+                            <h4 style= "max-width: 180px;" class="slider_bar-list-title">Dịch vụ khác của youtube</h4>
+                            <ul class="slider_bar-list slider_bar-list-pd">
+                                <li class="slider_bar-item">
+                                    <i class="bx  bx-code-alt"></i>
+                                    <p class="slider_bar-description">Lập trình</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bx-station bxf-station bxf-ml-station"></i>
+                                    <p class="slider_bar-description">Sự kiện trực tiếp</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-medal"></i>
+                                    <p class="slider_bar-description">Thể thao</p>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="slider_bar-list-fifth">
+                            <ul class="slider_bar-list">
+                                <li class="slider_bar-item">
+                                    <i class="bx  bxs-cog"></i>
+                                    <p class="slider_bar-description">Cài đặt</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-flag"></i>
+                                    <p class="slider_bar-description">Lịch sử báo cáo</p>
+                                </li>
+            
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-help-circle"></i>
+                                    <p class="slider_bar-description">Trợ giúp</p>
+                                </li>
+        
+                                <li class="slider_bar-item">
+                                    <i class="bx bxs-message-error"></i>
+                                    <p class="slider_bar-description">Gửi phản hồi</p>
+                                </li>
+            
+                            </ul>
+                        </div>
+        
+                        <div class="slider_bar-list-sixth">
+                            <li class="slider_bar-item-info">
+                                <a href="">Giới thiệu</a>
+                                <a href="">Báo chí</a>
+                                <a href="">Bản quyền</a>
+                                <a href="">Liên hệ với chúng tôi</a>
+                                <a href="">Người sáng tạo</a>
+                                <a href="">Quảng cáo</a>
+                                <a href="">Nhà phát triển</a>
+                            </li>
+                            
+                            <div style="margin-top: 12px;" class="spacee"></div>
+                            
+                            <li class="slider_bar-item-info">
+                                <a href="">Điều khoản</a>
+                                <a href="">Quyền riêng tư</a>
+                                <a href="">Chính sách và an toàn</a>
+                                <a href="">Cách Youtube hoạt động</a>
+                                <a href="">Thử các tính năng mới</a>
+                            </li>
+        
+                            <span class="info-bar-copyright">
+                                <i class="bx bx-copyright bxf-copyright"></i>
+                                <p>2021 - Long</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+        <div class="overlay">
+                   
+        </div>
+           
+        <ul class="header_list-left">
+        <li class="list_left-item click-show-menu">
+            <i class="header_list-icon ti-menu"></i>
+            <span class="btn-click"></span>
+        </li>
+
+        <li class="list_left-item">
+            <a href="https://aelong2001.github.io/Youtube/">
+                <img src="../assets/img/logo.png" alt="Youtube VN" class="header_logo">
+            </a>
+        </li>
+    </ul> 
+
+        <ul class="header_list-center">
+        <li class="list_center-item">
+            <input type="text" name="" id="" class="input-search" placeholder="Tìm kiếm">
+        </li>
+
+        <li class="list_center-item list_center-item-keyboard">
+            <div class="btn-search">
+                <i class="btn_search-icon ti-search"></i>
+            </div>
+            <div class="btn-keyboard">
+                <img src="../assets/img/keyboard.gif" alt="keyboard" class="icon-keyboard">
+            </div>
+        </li>
+
+        <li class="list_center-item">
+            <div class="header_microphone item-mic">
+                <i class="bx bxs-microphone"></i>
+                <span class="btn-click-2"></span>
+            </div>
+            <!-- Modal microphone -->
+            <div class="modal_mic">
+                <div class="overlay-mic">
+                </div>
+
+                <div class="modal_mic-content">
+                    <div class="mic_close">
+                        <i class="bx bx-x btn-x"></i>
+                    </div>
+                    <h3 class="mic_title">Tôi chưa nghe rõ.Mời bạn nói lại</h3>
+                    <div class="mic_box">
+                        <i class="bx bxs-microphone btn-mic"></i>
+                    </div>
+                    <p class="mic_description">Nhấp vào micrô để thử lại</p>         
+                </div>  
+            </div>
+            
+        </li>
+    </ul>
+
+    <ul class="header_list-right">
+        <li class="list_right-item item-videos">
+            <i class="icon-videos bx bxs-video-plus"></i>
+            <span class="btn-click-3"></span>
+            <ul class="videos_list-down">
+            <li class="videos_item">
+                <svg class="icon-special" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18"><defs><style>.cls-1{fill:red;}</style></defs><path d="M20,3H4A2,2,0,0,0,2,5V19a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V5A2,2,0,0,0,20,3Zm0,6h-.46L16.87,5H20ZM9.54,9,6.87,5h2.6l2.66,4Zm5,0L11.87,5h2.6l2.66,4ZM4,5h.47L7.13,9H4ZM4,19V11H20v8Z" transform="translate(-2 -3)"/><path class="cls-1" d="M10,18l5.5-3L10,12Z" transform="translate(-2 -3)"/></svg>
+                <p class="videos_description">Tải video lên</p>
+            </li>
+
+            <li class="videos_item">
+                <svg class="icon-special" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 14.14"><defs><style>.cls-1{fill:red;}</style></defs><circle class="cls-1" cx="10" cy="7.07" r="2"/><path d="M7.76,16.24l1.41-1.41a4,4,0,0,1,0-5.66L7.76,7.76a6,6,0,0,0,0,8.48Zm8.48,0a6,6,0,0,0,0-8.48L14.83,9.17a4,4,0,0,1,0,5.66Z" transform="translate(-2 -4.93)"/><path d="M6.34,17.66a8,8,0,0,1,0-11.32L4.93,4.93a10,10,0,0,0,0,14.14ZM17.66,6.34a8,8,0,0,1,0,11.32l1.41,1.41a10,10,0,0,0,0-14.14Z" transform="translate(-2 -4.93)"/></svg>
+                <p class="videos_description">Phát trực tiếp</p>
+            </li>
+        </ul>
+        </li>
+
+        <li class="list_right-item item-grid">
+            <i class="bx bxs-grid icon-grid"></i>
+            <span class="btn-click-4"></span>
+            <div class="grid_down">
+                <ul class="grid_list-down">
+                    <li class="grid_item-down">
+                        <a href="" class="grid_link-down">
+                            <i class="bx bxs-tv"></i>
+                            <p class="grid_description">Youtube TV</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="grid_list-down">
+                    <li class="grid_item-down">
+                        <a href="" class="grid_link-down">
+                            <i class="bx bx-play-circle"></i>
+                            <p class="grid_description">Youtube Music</p>
+                        </a>
+                    </li>
+
+                    <li class="grid_item-down">
+                        <a href="" class="grid_link-down">
+                            <i class="bx bxl-youtube grid-ytb-fix"></i>
+                            <p class="grid_description">Youtube Kids</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="grid_list-down">
+                    <li class="grid_item-down">
+                        <a href="" class="grid_link-down">
+                            <i class="bx bxl-youtube grid-ytb-fix"></i>
+                            <p class="grid_description">Học viện sáng tạo</p>
+                        </a>
+                    </li>
+
+                    <li class="grid_item-down">
+                        <a href="" class="grid_link-down">
+                            <i class="bx bxl-youtube grid-ytb-fix"></i>
+                            <p class="grid_description">Youtube dành cho Nghệ sĩ</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="list_right-item item-bell">
+            <i class="bx bxs-bell"></i>
+            <span class="btn-click-5"></span>
+            <div class="bell_down">
+                <ul class="bell_down-header">
+                    <h4 class="bell_down-title">Thông báo</h4>
+                    <i class="bx bxs-cog bxf-cog"></i>
+                </ul>
+                <div class="bell_down-scroll">
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/f8-myfavourite.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Lần trở lại này F8 sẽ làm gì cho các bạn? Học Lập trình để đi làm tại F8 nào</p>
+                            <span class="bell_down-sub-description"> 1 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/A_Son-f8.png" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/Nguoi_noi_tieng.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Bhutan - Quốc Gia "Hạnh Phúc Nhất Thế Gới"</p>
+                            <span class="bell_down-sub-description"> 4 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/Bhutan.jpg" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/A_le_kha_giap.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Hành Trình Đi Bộ Xuyên Việt (Lê Khả Giáp)</p>
+                            <span class="bell_down-sub-description"> 1 phút trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/ĐBXV-Lê Khả Giáp.png" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/khanh-hung.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Lập trình không khó (khó ở chỗ bạn kiên nhẫn đến đâu)</p>
+                            <span class="bell_down-sub-description"> 1 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/No pain No gain.jpg" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/le-gia-huy.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Cực kì phấn khích khi đi phượt bằng Motor</p>
+                            <span class="bell_down-sub-description"> 2 phút trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/A_le_gia_huy.jpg" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/pham-huy-hoang.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Tự học lập trình (Web development)</p>
+                            <span class="bell_down-sub-description"> 1 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/tự_học_lập_trình.jpg" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/laptrinhvienTV.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Lập trình viên (Một ngày làm việc của lập trình viên Front-End)</p>
+                            <span class="bell_down-sub-description"> 1 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/lap_trinh_vien.jpg" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>                       
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/freecodecamp.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Tài liệu lập trình (Kiến thức là miễn phí)</p>
+                            <span class="bell_down-sub-description"> 2 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/know_is_free.png" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+
+                    <ul class="bell_down-content">
+                        <li class="bell_down-item">
+                            <img src="../assets/img/f8-myfavourite.jpg" alt="Chanel avatar" class="bell_down-img-first">
+                        </li>
+
+                        <li class="bell_down-item f-m-bell_content">
+                            <p class="bell_down-description">Và lời kết (Hãy cố gắng lên code từng ngày từng ngày, và bạn sẽ thay đổi)</p>
+                            <span class="bell_down-sub-description"> 1 giờ trước</span>
+                        </li>
+
+                        <li class="bell_down-item">
+                            <img src="../assets/img/A_Son_Practice.png" alt="Avatar Description Channel" class="bell_down-img-second">
+                        </li>
+
+                        <li class="bell_down-item">
+                            <i class="bx bx-dots-vertical-rounded bxf-bx-dots-vertical-rounded"></i>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </li>
+        
+        <li class="list_right-item item-user">
+            <img src="../assets/img/AE_LONG.jpg" alt="User-login" class="user-avatar">
+            <div class="border_user-avatar"></div>
+            <div class="user_down">
+                <ul class="user_down-header">
+                    <li class="user_down-item-header">
+                        <img src="../assets/img/AE_LONG.jpg" alt="Channel Avatar" class="user_down-img">
+                        <div class="user_down-profile">
+                            <p class="user_profile-title">Long HD</p>
+                            <span class="user_profile-description">Quản lý Tài khoản Google của ...</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="user_down-content-first">
+                    <li class="user_down-content-item">
+                        <i class="bx bxs-user-rectangle bxf-user-rectangle"></i>                          
+                        <p class="user_icon-description">Kênh của bạn</p>
+                    </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bxs-dollar-circle"></i>                     
+                    <p class="user_icon-description">Giao dịch và mua gói hội viên</p>
+                    </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bxl-youtube  bxf-youtube-2"></i>
+                        <p class="user_icon-description">Youtube Studio</p>
+                    </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bxs-user-account"></i>
+                        <p class="user_icon-description">Chuyển đổi tài khoản</p>
+                        <div class="sub-arrow-right">
+                            <i class="bx bx-chevron-right bxf-chevron-right"></i>
+                        </div>
+                    </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bx-log-in"></i>
+                        <p class="user_icon-description">Đăng xuất</p>
+                        </li>
+                </ul>
+
+                <ul class="user_down-content-second">
+                    <li class="user_down-content-item">
+                        <i class="bx bxs-adjust"></i>                          
+                        <p class="user_icon-description">Giao diện: Giao diện của thiế...</p>
+                        <div class="sub-arrow-right">
+                            <i class="bx bx-chevron-right bxf-chevron-right-1"></i>
+                        </div>
+                        </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bx-font-family"></i>                     
+                        <p class="user_icon-description">Ngôn ngữ: Tiếng Việt</p>
+                        <div class="sub-arrow-right">
+                            <i class="bx bx-chevron-right bxf-chevron-right-2"></i>
+                        </div>
+                        </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bx-world"></i>
+                        <p class="user_icon-description">Địa điểm: Việt Nam</p>
+                        <div class="sub-arrow-right">
+                            <i class="bx bx-chevron-right bxf-chevron-right-3"></i>
+                        </div>
+                        </li>
+
+                    <li class="user_down-content-item">
+                        <i class="bx bxs-cog user-btn-fix"></i>
+                        <p class="user_icon-description">Cài đặt</p>                             
+                        </li>
+
+                        <li class="user_down-content-item">
+                            <i class="bx bx-shield-quarter"></i>
+                            <p class="user_icon-description">Dữ liệu của bạn trong Youtube</p>
+                        </li>
+
+                        <li class="user_down-content-item">
+                        <i class="bx bxs-help-circle user-btn-fix"></i>
+                        <p class="user_icon-description">Trợ giúp</p>
+                        </li>
+
+                        <li class="user_down-content-item">
+                        <i class="bx bxs-message-error user-btn-fix"></i>
+                        <p class="user_icon-description">Gửi phản hồi</p>
+                        </li>
+
+                        <li class="user_down-content-item">
+                        <i class="bx bxs-keyboard user-btn-fix"></i>
+                        <p class="user_icon-description">Phím tắt</p>
+                        </li>
+                </ul>
+
+                <ul class="user_down-content-third">
+                    <li class="user_down-content-item-third">
+                        <p class="user_third-description">Chế độ hạn chế: Đã tắt</p>
+                        <div class="sub-arrow-right">
+                            <i class="bx bx-chevron-right bxf-chevron-right-4"></i>
+                        </div>                              
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    
+        </div>
+
+     
+        <div class="container-video">
+            <div class="container">
+                <div class="row video-product">
+                   <div class="col-8 video_container-left">
+                        <div class="video_main">
+                            <iframe width="100%" height="512" src="https://www.youtube.com/embed/qdZ_i8WH_TI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <div class="video_title">
+                                <h3 class="video_title-heading">TIN TRƯA 7/8 | MESSI VỀ VỚI PSG ĐỂ GIEO ÁC MỘNG CHO MỌI ĐỘI BÓNG TRÊN TOÀN THẾ GIỚI</h3>
+                            </div>
+
+                            <div class="video_intro">
+                                <div class="video_info-left">
+                                    <div class="video_info-view">
+                                        <span>360.096 lượt xem</span>
+                                    </div>
+
+                                    <i class="bx bxs-circle video_icon-dot"></i>
+
+                                    <div class="video_info-date">
+                                       <span>6 thg 8, 2021</span>
+                                    </div>
+                                </div>
+
+                                <div class="video_info-right">
+                                    <ul class="video_info-social">
+                                        <li class="video_info-social-item">
+                                            <i class="bx bxs-like video_icon-right like-click-change">
+                                            </i>
+                                            <span class="amount_like-click-change">542</span>
+                                            <div class="info_info-right-line line-click-change">
+                                            </div>
+                                            <span class="like-up-down"></span>
+                                            
+                                        </li>
+
+                                        <li class="video_info-social-item dislike-click-main">
+                                            <i class="bx bxs-dislike video_icon-right dislike-click-change">
+                                            </i>
+                                            <span class="amount-dislike-click-change">0</span>
+                                            <span class="dislike-up-down"></span>
+                                        </li>
+
+                                        <li class="video_info-social-item video_info-share">
+                                            <i class="bx bxs-share video_icon-right"></i>
+                                            <span class="video_info-decs-right">Chia sẻ</span>
+                                        </li>
+
+                                    
+
+                                        <li class="video_info-social-item video_info-save">
+                                            <i class="bx bx-list-plus video_icon-right"></i>
+                                            <span class="video_info-decs-right">Lưu</span>
+                                        </li>
+
+                                        <li class="video_info-social-item video_icon-right">
+                                            <i class="bx bx-dots-horizontal-rounded bxf-three-dots"></i>
+                                            <ul class="video_info-social-list-report">
+                                                <li class="video_info-social-item-report">
+                                                    <i class="bx bxs-flag-alt bxf-flag-alt"></i>
+                                                    <span>Báo vi phạm</span>
+                                                </li>
+
+                                                <li class="video_info-social-item-report">
+                                                    <i class="bx bx-table bxf-table"></i>
+                                                    <span>Mở bản chép lời</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>                               
+                   
+                            </div>                         
+
+                            <div class="video_channel">
+                                <ul class="video_channel-main">
+                                    <li class="video_channel-item">
+                                        <img src="../assets/img/tuyen_van_hoa.jpg" alt="" class="video_channel-img">
+                                    </li>
+
+                                    <li class="video_channel-item">
+                                        <div class="video_channel-info">
+                                            <p>Tuyền Văn Hóa
+                                                <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                            </p>
+                                        </div>
+
+                                        <div class="video_channel-subscribe">
+                                            <p>1,52 Tr người đăng ký</p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            <div class="video_channel-register-btn">
+                                <button class="video_btn-subscribe">
+                                    <a class="video_btn-content">Đăng ký</a>
+                                </button>
+                                    <i class="bx bx-bell bxf-bell"></i>
+                                </div>
+                            </div>
+                           
+
+                            <div class="video_channel-desc">
+                               <div class="video_channel-desc-main">
+                                    <p>
+                                        #Messi #PSG #ChuyểnNhượng<br>
+                                        -------------------------------------------------<br>
+                                        - SUBSCRIBE NGAY: <a href="" style="text-decoration: none">https://bit.ly/2LdXw1v</a><br>
+                                    </p>
+                                </div>
+
+                               <div class="video_channel-sub-desc">                                  
+                                - BLV: <a href="" style="text-decoration: none">https://www.facebook.com/MrTuyenVanHoa</a><br>
+                                - Fan Page: <a href="" style="text-decoration: none">https://www.facebook.com/TuyenVanHoaO...</a><br>
+                                - Contact: VietnamSportsOfficial@gmail.com<br>
+                                <a href="" style="text-decoration: none"> #TuyềnVănHóa #Bìnhluậnbóngđá #Tinnóngbóngđá #BóngđáViệtNam #Bóngđá  #bóngđáViệt #Bóngđáhômnay</a>
+                               </div>
+
+                               <p class="video-click-htt">Hiển thị thêm</p>
+                            </div>
+
+
+                            <div class="video_comment">
+                                <div class="video_comment-amount">
+                                    <p>181 bình luận</p>
+                                </div>
+
+                                <div class="video_comment-sort">
+                                    <i class="bx bx-menu-alt-left bxf-menu-alt-left">
+                                    </i>
+                                    <span>Sắp xếp theo</span>
+                                </div>                             
+                            </div>
+
+                            <div class="video_comment-user">
+                                <div class="video_comment-user-img">
+                                    <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="video_comment-user-img-main">
+                                </div>
+
+                                <div class="video_comment-user-input">
+                                </div>
+                                <input type="text" name="" id="" class="video-input" placeholder="Bình luận công khai...">
+
+                                <div class="video_comment-user-btn">
+                                    <button class="video_comment-btn-cancel">Hủy</button>
+                                    <button class="video_comment-btn-cmt">Bình luận</button>
+                                </div>
+                            </div>
+
+                           <div class="video-list-comments">
+                                <div class="video_comment-user-response">
+                                    <img src="../assets/img/f8-myfavourite.jpg" alt="Avatar Channel Comment" class="video_comment-user-response-img">
+                                    <div class="video_comment-user-response-main">
+                                        <div class="video_comment-user-response-main-title">
+                                            <div class="video_comment-user-response-main-title-name">
+                                            <span>F8 Official
+                                                <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                            </span>
+                                            </div>
+
+                                            <div class="video_comment-user-resspanonse-main-title-date">
+                                                <span>1 tháng trước</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="video_comment-user-response-desc">
+                                        <span>Anh em học code đến đâu rồi nào.Comment để Anh Sơn biết nào
+                                                <span style="color:var(--color-active) !important">❤❤❤</span>
+                                        </span>
+                                        </div>
+
+                                        <ul class="video_comment-user-response-social">
+                                            <li class="video_comment-user-response-social-item">
+                                                <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                <span class="like-click-add">2,1 N</span>
+                                            </li>
+
+                                            <li class="video_comment-user-response-social-item">
+                                                <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                <span></span>
+                                            </li>
+
+                                            <li class="video_comment-user-response-social-item">
+                                                <span class="video_comment-feedback feedback-one">Phản hồi</span>
+                                            </li>
+                                          
+                                        </ul>
+                                                             
+                                        <div class="box-response-one">
+                                            <div class="box-response-img">
+                                                <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="box-response-img-main">
+                                            </div>
+
+                                            <div class="box-response-input">
+                                            </div>
+                                            <input type="text" name="" id="" class="box-response-input-main-one" placeholder="Phản hồi công khai...">
+
+                                            <div class="box-response-btn-one">
+                                                <button class="box-response-btn-cancel-one">Hủy</button>
+                                                <button class="box-response-btn-cmt-one">Phản hồi</button>
+                                            </div>
+                                        </div>
+
+                                    
+                                        <div class="video_comment-list-down">
+                                                    
+                                            <div class="video_comment-user-response-arrow-down">
+                                                <i class="bx bxs-down-arrow bxf-down-arrow">
+                                                </i>
+                                                <span class="clickShowHide">Xem 4 câu trả lời</span>
+                                            </div>
+                                            
+                                        <div class="video_comment-list-down-main">
+                                                <div class="video_comment-user-response sub-user-response">
+                                                    <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="sub-user-response-img">
+                                                    <div class="video_comment-user-response-main">
+                                                        <div class="video_comment-user-response-main-title">
+                                                            <div class="video_comment-user-response-main-title-name">
+                                                            <span>Long HD
+                                                                <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                                            </span>
+                                                            </div>
+                    
+                                                            <div class="video_comment-user-resspanonse-main-title-date">
+                                                                <span>1 tháng trước</span>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="video_comment-user-response-desc">
+                                                        <span>Em đang code đều đặn từng ngày đây anh ạ.
+                                                        </span>
+                                                        </div>
+                    
+                                                        <ul class="video_comment-user-response-social">
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                                <span>1,2 N</span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                                <span></span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <span class="video_comment-feedback-special">Phản hồi</span>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+            
+                                                <div class="video_comment-user-response sub-user-response">
+                                                    <img src="../assets/img/pham-huy-hoang.jpg" alt="Avatar Channel Comment" class="sub-user-response-img">
+                                                    <div class="video_comment-user-response-main">
+                                                        <div class="video_comment-user-response-main-title">
+                                                            <div class="video_comment-user-response-main-title-name">
+                                                                <span>Phạm Huy Hoàng
+                                                                    <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                                                </span>
+                                                            </div>
+                    
+                                                            <div class="video_comment-user-resspanonse-main-title-date">
+                                                                <span>1 tháng trước</span>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="video_comment-user-response-desc">
+                                                        <span>Hello mọi người mình là thành viên mới ✌.Có gì mong mọi người giúp đỡ nhé.
+                                                        </span>
+                                                        </div>
+                    
+                                                        <ul class="video_comment-user-response-social">
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                                <span>1 N</span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                                <span></span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <span class="video_comment-feedback-special">Phản hồi</span>
+                                                            </li>
+                                                        </ul>
+                
+                                                    </div>
+                                                </div>
+            
+                                                <div class="video_comment-user-response sub-user-response">
+                                                    <img src="../assets/img/laptrinhvienTV.jpg" alt="Avatar Channel Comment" class="sub-user-response-img">
+                                                    <div class="video_comment-user-response-main">
+                                                        <div class="video_comment-user-response-main-title">
+                                                            <div class="video_comment-user-response-main-title-name">
+                                                            <span>Lập Trình Viên TV
+                                                                
+                                                            </span>
+                                                            </div>
+                    
+                                                            <div class="video_comment-user-resspanonse-main-title-date">
+                                                                <span>1 tháng trước</span>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="video_comment-user-response-desc">
+                                                            <span> <a href="" style="text-decoration: none">@Phạm Huy Hoàng</a> Lại xạo rồi 
+                                                            </span>
+                                                        </div>
+                    
+                                                        <ul class="video_comment-user-response-social">
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                                <span>1,6 N</span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                                <span></span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <span class="video_comment-feedback-special">Phản hồi</span>
+                                                            </li>
+                                                        </ul>
+                
+                                                    </div>
+                                                </div>
+            
+                                                <div class="video_comment-user-response sub-user-response">
+                                                    <img src="../assets/img/A_le_kha_giap.jpg" alt="Avatar Channel Comment" class="sub-user-response-img">
+                                                    <div class="video_comment-user-response-main">
+                                                        <div class="video_comment-user-response-main-title">
+                                                            <div class="video_comment-user-response-main-title-name">
+                                                            <span>Lê Khả Giáp
+                                                            
+                                                            </span>
+                                                            </div>
+                    
+                                                            <div class="video_comment-user-resspanonse-main-title-date">
+                                                                <span>1 tháng trước</span>
+                                                            </div>
+                                                        </div>
+                    
+                                                        <div class="video_comment-user-response-desc">
+                                                        <span>Vừa đi bộ xuyên việt, vừa code cảm giác quá là đã nha mọi người.
+                                                        </span>
+                                                        </div>
+                    
+                                                        <ul class="video_comment-user-response-social">
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                                <span>1,8 N</span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                                <span></span>
+                                                            </li>
+                    
+                                                            <li class="video_comment-user-response-social-item">
+                                                                <span class="video_comment-feedback-special">Phản hồi</span>
+                                                            </li>
+                                                        </ul>
+                
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>                         
+
+                            
+                                 <div class="video-sub-list-comments">
+                                    <div class="video_comment-user-response">
+                                        <img src="../assets/img/lap_trinh_vien.jpg" alt="Avatar Channel Comment" class="video_comment-user-response-img">
+                                        <div class="video_comment-user-response-main">
+                                            <div class="video_comment-user-response-main-title">
+                                                <div class="video_comment-user-response-main-title-name">
+                                                    <span>Coder vô danh</span>
+                                                </div>
+    
+                                                <div class="video_comment-user-resspanonse-main-title-date">
+                                                    <span>20 ngày trước</span>
+                                                </div>
+                                            </div>
+    
+                                            <div class="video_comment-user-response-desc">
+                                                <span>Cảm giác vừa code vừa nghe nhạc thật là phiêu anh em ạ.</span>
+                                            </div>
+    
+                                            <ul class="video_comment-user-response-social">
+                                                <li class="video_comment-user-response-social-item">
+                                                    <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                    <span class="like-click-add">1,5 N</span>
+                                                </li>
+    
+                                                <li class="video_comment-user-response-social-item">
+                                                    <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                    <span class="like-click-subtraction"></span>
+                                                </li>
+    
+                                                <li class="video_comment-user-response-social-item">
+                                                    <span class="video_comment-feedback feedback-two">Phản hồi</span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="box-response-two">
+                                                <div class="box-response-img">
+                                                    <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="box-response-img-main">
+                                                </div>
+    
+                                                <div class="box-response-input">
+                                                </div>
+                                                <input type="text" name="" id="" class="box-response-input-main-two" placeholder="Phản hồi công khai...">
+    
+                                                <div class="box-response-btn-two">
+                                                    <button class="box-response-btn-cancel-two">Hủy</button>
+                                                    <button class="box-response-btn-cmt-two">Phản hồi</button>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                    </div>
+                            
+                                <div class="video_comment-user-response-third">
+                                    
+                                    <div class="video_comment-user-response">
+                                        <img src="../assets/img/freecodecamp.jpg" alt="Avatar Channel Comment" class="video_comment-user-response-img">
+                                        <div class="video_comment-user-response-main">
+                                            <div class="video_comment-user-response-main-title">
+                                                <div class="video_comment-user-response-main-title-name">
+                                                    <span>freeCodeCamp.org
+                                                        <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                                    </span>
+                                                </div>
+    
+                                                <div class="video_comment-user-resspanonse-main-title-date">
+                                                    <span>4 ngày trước</span>
+                                                </div>
+                                            </div>
+    
+                                            <div class="video_comment-user-response-desc">
+                                                <span>Anh em qua web mình học code đi.Học mọi lúc mọi nơi(kết hợp cả F8 là một điều tuyệt vời)</span>
+                                            </div>
+    
+                                            <ul class="video_comment-user-response-social">
+                                                <li class="video_comment-user-response-social-item">
+                                                    <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                    <span class="like-click-add">1,7 N</span>
+                                                </li>
+    
+                                                <li class="video_comment-user-response-social-item">
+                                                    <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                    <span class="like-click-subtraction"></span>
+                                                </li>
+    
+                                                <li class="video_comment-user-response-social-item">
+                                                    <span class="video_comment-feedback feedback-three">Phản hồi</span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="box-response-three">
+                                                <div class="box-response-img">
+                                                    <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="box-response-img-main">
+                                                </div>
+    
+                                                <div class="box-response-input">
+                                                </div>
+                                                <input type="text" name="" id="" class="box-response-input-main-three" placeholder="Phản hồi công khai...">
+    
+                                                <div class="box-response-btn-three">
+                                                    <button class="box-response-btn-cancel-three">Hủy</button>
+                                                    <button class="box-response-btn-cmt-three">Phản hồi</button>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                    </div>
+    
+                                   <div class="video_comment-user-response-fourth">
+                                        <div class="video_comment-user-response">
+                                            <img src="../assets/img/khanh-hung.jpg" alt="Avatar Channel Comment" class="video_comment-user-response-img">
+                                            <div class="video_comment-user-response-main">
+                                                <div class="video_comment-user-response-main-title">
+                                                    <div class="video_comment-user-response-main-title-name">
+                                                        <span>Khánh Hùng - Đời Sống Lập Trình Viên</span>
+                                                    </div>
+        
+                                                    <div class="video_comment-user-resspanonse-main-title-date">
+                                                        <span>12 ngày trước</span>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="video_comment-user-response-desc">
+                                                    <span>Kiến thức là miễn phí.Và chỉ cần bạn nỗ lực thôi.Cố gắng lên nào anh em 💪</span>
+                                                </div>
+        
+                                                <ul class="video_comment-user-response-social">
+                                                    <li class="video_comment-user-response-social-item">
+                                                        <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                        <span class="like-click-add">1,2 N</span>
+                                                    </li>
+        
+                                                    <li class="video_comment-user-response-social-item">
+                                                        <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                        <span class="like-click-subtraction"></span>
+                                                    </li>
+        
+                                                    <li class="video_comment-user-response-social-item">
+                                                        <span class="video_comment-feedback feedback-four">Phản hồi</span>
+                                                    </li>
+                                                </ul>
+
+                                                <div class="box-response-four">
+                                                    <div class="box-response-img">
+                                                        <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="box-response-img-main">
+                                                    </div>
+        
+                                                    <div class="box-response-input">
+                                                    </div>
+                                                    <input type="text" name="" id="" class="box-response-input-main-four" placeholder="Phản hồi công khai...">
+        
+                                                    <div class="box-response-btn-four">
+                                                        <button class="box-response-btn-cancel-four">Hủy</button>
+                                                        <button class="box-response-btn-cmt-four">Phản hồi</button>
+                                                    </div>
+                                                </div>
+                                        
+                                            </div>
+                                        </div>
+        
+                                        
+                                       <div class="video_comment-user-response-fifth">
+                                            <div class="video_comment-user-response">
+                                                <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="video_comment-user-response-img">
+                                                <div class="video_comment-user-response-main">
+                                                    <div class="video_comment-user-response-main-title">
+                                                        <div class="video_comment-user-response-main-title-name">
+                                                            <span>Long HD
+                                                                <i class="bx bxs-check-circle bxf-check-circle"></i>
+                                                            </span>
+                                                        </div>
+            
+                                                        <div class="video_comment-user-resspanonse-main-title-date">
+                                                            <span>1 mili giây trước</span>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="video_comment-user-response-desc">
+                                                        <span>Cố gắng lên anh em.Hành động sẽ chứng minh mọi thứ</span>
+                                                    </div>
+            
+                                                    <ul class="video_comment-user-response-social">
+                                                        <li class="video_comment-user-response-social-item">
+                                                            <i class="bx bxs-like bxr-like icon_social-comment-active-like"></i>
+                                                            <span class="like-click-add">1,4 N</span>
+                                                        </li>
+            
+                                                        <li class="video_comment-user-response-social-item">
+                                                            <i class="bx bxs-dislike bxr-dislike icon_social-comment-active-dislike"></i>
+                                                            <span class="like-click-subtraction"></span>
+                                                        </li>
+            
+                                                        <li class="video_comment-user-response-social-item">
+                                                            <span class="video_comment-feedback feedback-five">Phản hồi</span>
+                                                        </li>
+                                                    </ul>
+
+                                                    <div class="box-response-five">
+                                                        <div class="box-response-img">
+                                                            <img src="../assets/img/AE_LONG.jpg" alt="Avatar Channel Comment" class="box-response-img-main">
+                                                        </div>
+            
+                                                        <div class="box-response-input">
+                                                        </div>
+                                                        <input type="text" name="" id="" class="box-response-input-main-five" placeholder="Phản hồi công khai...">
+            
+                                                        <div class="box-response-btn-five">
+                                                            <button class="box-response-btn-cancel-five">Hủy</button>
+                                                            <button class="box-response-btn-cmt-five">Phản hồi</button>
+                                                        </div>
+                                                    </div>
+                                            
+                                                </div>
+                                            </div>
+                                       </div>
+                                   </div>
+                                </div>
+                                    
+                                </div> 
+                           </div>
+
+                        </div>
+                   </div>
+    
+                   <div class="col-4 video_container-right">
+                    
+                        <div class="product_video">
+                            <a href="video1.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video1.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">0:17</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/f8-myfavourite.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>F8 có gì mới trong lần trở lại này?</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">F8 Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">8 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">1 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video2.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video2.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">6:35</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/f8-myfavourite.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Lần trở lại này F8 sẽ làm gì cho các bạn? Học lập trình để đi làm tại F8 nào!</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">F8 Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">12 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">1 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video3.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video3.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">15:44</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/f8-myfavourite.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>F8 SẬP? MÌNH ĐÃ FIX NHƯ THẾ NÀO? - FIX BUGS IN THE HOSPITAL</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">F8 Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">20 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">24 ngày trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video4.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video4.png" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">34:51</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/f8-myfavourite.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Sinh viên IT đi thực tập cần biết những gì? | Đi thực tập cần chuẩn bị những gì? | Thực tập IT</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">F8 Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">98 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">8 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video5.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video5.png" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">10:35</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/tuan-can.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Cung Đường Hòa Lạc Hòa Bình Dành Cho Biker Mê Tốc Độ</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Tuấn Cận Vlog</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">4,2 Tr lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">2 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video6.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video6.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">10:44</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/minh-bup-be.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Tik Tok Phượt - Đi Để Biết Ta Là Ai Trong Cuộc Đời | Minh Motor</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Minh Búp Bê</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">136 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">2 năm trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video7.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video7.png" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">7:54</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/A_navu.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Lần đầu chạy thử Kawasaki Ninja H2 - Phê hết nước chấm | Navu Vlog</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Navu Vlog</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">59 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">2 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video8.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video8.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">17:27</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/le-gia-huy.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Thử Thách Ôm Cua Không Lấn Lane Đèo Omega</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Lê Gia Huy</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">39 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">5 ngày trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video9.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video9.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">4:59</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/K-ICM.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Đi Đi Đi - Xách ba lô lên và đi (Cuộc sống được bao lâu mà bạn phải chờ đợi)</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">K-ICM Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">5,3 Tr lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">3 năm trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video10.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video10.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">5:30</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/tik_tokNH.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Ngẫu hứng-Bóng Tối Trước Bình Minh Remix (DJ QT Mix) Trai xinh gái đẹp trong Bar</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">TikTok QT - Dj QT</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">2,9 Tr lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">2 năm trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video11.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video11.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">5:46</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/HoaNguyen_Official.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Đại Thiên Bồng - Lộ Gia | 大天蓬 - 璐爷 (DJ 阿超 Remix) Cổ Phong Thần Khúc - TikTok</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Hoa Nguyễn Official</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">3,4 Tr lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">8 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video12.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video12.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">3:32</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/Alan_Walker.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Alan Walker - Faded (Bản nhạc hay nhất thế giới)</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Alan Walker</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">3,1 T lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">5 năm trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video13.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video13.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">11:59</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/k+_plus.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>WEST HAM - LEICESTER | ANTONIO TỎA SÁNG, BÚA TẠ ĐẬP NÁT BẦY CÁO TẠI LONDON | NGOẠI HẠNG ANH 2021/22</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">K-plus Sports</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">666 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">1 ngày trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="product_video">
+                            <a href="video14.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video14.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">32:42</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/cam_bong_da.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Ngôi đền huyền thoại | LIONEL MESSI (Phần 3)</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">Cảm bóng đá</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">196 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">5 ngày trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    
+                        <div class="product_video">
+                            <a href="video16.html" class="product_video-link">
+                                <div class="product_video-img">
+                                    <img  src="../assets/img/video16.jpg" alt="Avatar Video" class="product_video-img-main">
+                                    <span class="product_video-img-time">25:58</span>
+
+                                    <div class="videos-icon-play">
+                                        <i class="bx bx-play"></i>
+                                    </div>
+
+                                    <ul class="videos_list-icon-hover">
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-time">
+                                            <i class="bx bxs-time bxf-time"></i>
+                                            
+                                            <div class="list-icon-skiing-time">
+                                            <span>Xem sau</span>
+                                            </div>   
+                                        </li>
+
+                                        <li class="videos_item-icon-hover videos_item-icon-hover-list-ul">
+                                            <i class="bx bx-list-ul bxf-list-ul"></i>
+
+                                            <div class="list-icon-skiing-ul">
+                                            <span>Thêm vào danh sách chờ</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </div>
+
+                                <div class="product_video_content">
+                                    <div class="product_video-img-user">
+                                        <img src="../assets/img/man_nhan_tv.jpg" alt="Avatar Channel" style="display: none;">
+                                    </div>
+
+                                    <div class="product_video-description">
+                                        <div class="product_video-title-product">
+                                            <h4>Khoảnh khắc lịch sử - Messi thâu tóm mọi danh hiệu cá nhân - ăn mừng chức vô địch Copa 2021</h4>
+                                        </div>
+
+                                        <div class="product_video_user-chanel">
+                                            <span class="product_video_user-name">MÃN NHÃN TV</span>
+                                            <span class="product_video_user-verified">
+                                                <i class="bx bxs-check-circle"></i>
+                                            </span>
+                                        </div>
+
+                                        <div class="product_video-info">
+                                            <span class="product_video-info-view">883 N lượt xem</span>
+                                            <span class="product_video-info-dot">
+                                                <i class="fas fa-circle"></i>
+                                            </span>
+                                            <span class="product_video-info-date">1 tháng trước</span>
+                                        </div>
+
+                                        <div class="product_video-option">
+                                            <i class="bx bx-dots-vertical-rounded bxf-dots-vertical-rounded-video"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+               
+                  </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+       <!-- box_share khi click vào share -->
+       <div class="video_box-share">
+            <div class="video-box-share-content">
+                <div class="video_box-share-title">
+                    <div class="video_box-share-title-left">
+                        <h3>Chia sẻ</h3>
+                    </div>
+    
+                    <div class="video_box-share-title-right">
+                        <i class="bx bx-x bxf-x"></i>
+                    </div>
+                </div>
+    
+                <div class="video-box-list-social">
+                    
+                    <ul class="video_box-share-social">
+                        <li class="video_box-share-social-item video_box-share-social-item-code">
+                            <i class="bx bx-code bx-share-social">
+                            </i>
+                        </li>
+        
+                        <li class="video_box-share-social-item video_box-share-social-item-facebook">
+                            <i class="bx bxl-facebook bx-share-social">
+                            </i>
+                        </li>
+        
+                        <li class="video_box-share-social-item video_box-share-social-item-whats_app">
+                            <i class="bx bxl-whatsapp bx-share-social">
+                            </i>
+                        </li>
+        
+                        <li class="video_box-share-social-item video_box-share-social-item-twitter">
+                            <i class="bx bxl-twitter bx-share-social">
+                            </i>
+                        </li>
+        
+                        <li class="video_box-share-social-item video_box-share-social-item-email">
+                            <i class="bx bx-mail-send bx-share-social">
+                            </i>
+                        </li>
+        
+                        <li class="video_box-share-social-item video_box-share-social-item-github">
+                            <i class="bx bxl-github bx-share-social">
+                            </i>
+                        </li>
+                    </ul>
+
+
+                    <ul class="video_box-share-social-content">
+                        <p class="video_box-share-social-content-desc">Nhúng</p>
+                        <p class="video_box-share-social-content-desc">Facebook</p>
+                        <p class="video_box-share-social-content-desc">Whatsapp</p>
+                        <p class="video_box-share-social-content-desc">Twitter</p>
+                        <p class="video_box-share-social-content-desc">Email</p>
+                        <p class="video_box-share-social-content-desc">Github</p>
+                    </ul>
+
+                </div>
+    
+                <div class="video-box-share-link">
+                    <p class="video-box-share-link-main">
+                        https://www.youtube.com/watch?v=WRfFhZqc5gk
+                    </p>
+                    <h4 class="video-box-share-link-copy">
+                        Sao chép
+                    </h4>
+                </div>
+    
+                <div class="video-box-share-input">
+                    <input type="checkbox" name="" id="" class="share-input">
+                    <p class="video-box-share-input-title">Bắt đầu tại</p>
+                </div>
+            </div>          
+        </div>
+
+       
+        <!-- box_save khi click vào save -->
+        <div class="video_box-save">
+           <div class="video_box-save-content">
+                <div class="video_box-save-title">
+                    <h4 class="video_box-save-heading">
+                        Lưu vào...
+                    </h4>
+                    <i class="bx bx-x bxf-x bxf-x-save"></i>
+                </div>
+
+                <ul class="video_box-list-save">
+                    <li class="video_box-item-save">
+                        <div class="video_box-item-save-left">
+                            <input type="checkbox" name="" id="" class="video_box-save-input">
+                            <span class="video_box-save-input-desc">Xem sau</span>
+                        </div>
+
+                        <i class="bx bxs-lock bxf-lock"></i>
+                    </li>
+
+                    <li class="video_box-item-save">
+                        <div class="video_box-item-save-left">
+                            <input type="checkbox" name="" id="" class="video_box-save-input">
+                            <span class="video_box-save-input-desc">Xem sau</span>
+                        </div>
+
+                        <i class="bx bxs-lock bxf-lock"></i>
+                    </li>
+
+                    <li class="video_box-item-save">
+                        <div class="video_box-item-save-left">
+                            <input type="checkbox" name="" id="" class="video_box-save-input">
+                            <span class="video_box-save-input-desc">Xem sau</span>
+                        </div>
+
+                        <i class="bx bxs-lock bxf-lock"></i>
+                    </li>
+                </ul>
+
+                <div class="video_box-new-list">
+                    <i class="bx bx-plus bxf-plus"></i>
+                    <span>Tạo danh sách phát mới</span>
+                </div>
+
+                <ul class="video_box-new-list-down">
+                    <li class="video_box-new-item-down">
+                        <div class="video_box-new-input">
+                            <label for="" style="font-size: 1.4rem; color: var(--black-color); font-family: 'roboto','sans-serif';">Tên</label>
+                            <input type="text" name="" id="" placeholder="Nhập tên danh sách phát..." class="video_box-new-input-main">
+                            <label for="" style="font-size: 1.4rem; align-self: flex-end;">0/150</label>
+                        </div>
+                    </li>
+
+                    <li class="video_box-new-item-down">
+                        <div class="video_box-new-select">
+                            <label for="" style="color: var(--main-color); font-size: 1.4rem;">Quyền riêng tư</label>
+                            <select name="" id="" style="font-size: 1.4rem; border: none">
+                                <option value="">Công khai</option>
+                                <option value="">Không công khai</option>
+                                <option value="">Riêng tư</option>
+                            </select>
+                        </div>
+                    </li>
+
+                    <li class="video_box-new-item-down">
+                       <h4>Tạo</h4>
+                    </li>
+                </ul>
+           </div>
+        </div>
+
+
+        <!-- box subscribe khi click vào unscribe -->
+        <div class="video_box-subscribe">
+            <div class="video_box-subscribe-title">
+               <p>Hủy đăng ký Tuyền Văn Hóa ?</p>
+            </div>
+
+            <div class="video_box-subscribe-select">
+                <div class="video_box-subscribe-select-left">
+                    <p class="video_box-subscribe-select-close">Hủy</p>
+                </div>
+
+                <div class="video_box-subscribe-select-right">
+                    <p class="video_box-subscribe-select-un-scribe">Hủy đăng ký</p>
+                </div>
+            </div>
+        </div>
+
+    
+    <script src="./video.js"></script>
+</body>
+</html>
