@@ -8,7 +8,7 @@ function renderVideos() {
             linkVideo: './list-videos/video1.html',
             avatar: 'video1.png',
             time: '3:29',
-            channelAvatar: 'phucthanh.jpg',
+            channelAvatar: 'silvershuu.jpg',
             title: '[Vietsub+ Kara] Clean Bandit - Symphony feat. Zara Larsson // AMV',
             author: 'SilverShuu - Channel D..',
             view: '3,990 回視聴',
