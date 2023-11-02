@@ -106,12 +106,12 @@ function renderVideos() {
         {
             linkVideo: './list-videos/video10.html',
             avatar: 'video10.jpg',
-            time: '5:30',
-            channelAvatar: 'tik_tokNH.jpg',
-            title: 'Ngẫu hứng-Bóng Tối Trước Bình Minh Remix (DJ QT Mix) Trai xinh gái đẹp trong Bar',
-            author: 'TikTok QT - Dj QT',
-            view: '290万 回視聴',
-            date: '2年前'
+            time: '7:30',
+            channelAvatar: 'nissy.jpg',
+            title: 'Nissy(⻄島隆弘) / 「When You Were Mine」Music Video ',
+            author: 'Nissy Channel',
+            view: '354万 回視聴 ',
+            date: '8日前'
         },
 
         {
@@ -540,4 +540,3 @@ listUserDown.addEventListener('click', (e) => {
 });
 
 
-       
